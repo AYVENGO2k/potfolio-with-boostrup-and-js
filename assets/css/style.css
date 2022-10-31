@@ -1,0 +1,209 @@
+#header {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/a4615f88081467.5dcb95ac3d91b.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#hero:before{
+    content: "";
+    background: rgba(0, 0, 0, 0.608);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#hero .container{
+    position: relative;
+    padding-top: 75px;
+}
+
+#hero h1{
+    margin: 30px auto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 140%;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#hero h2{
+
+    margin: 30px auto;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#hero h3{
+    margin: 30px auto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#about {
+    width: 100%;
+    height: 120vh;
+    background: #ffffff;
+    background-size: cover;
+    position: relative;
+}
+
+#about .container{
+    position: relative;
+    padding-top: 75px;
+}
+
+#about h3{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#about h4{
+    margin: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.badge {
+    margin: 5px;
+}
+
+#about h2{
+    margin: 25px auto;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 140%;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#table{
+    width: 100%;
+    height: 70vh;
+    background: #ffffff;
+    background-size: cover;
+    position: relative;
+}
+
+#modal {
+    margin: 50px auto;
+}
+
+#form_ {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+
+
+    background-size: cover;
+    position: relative;
+}
+
+#form_ button{
+    background: rgb(31, 31, 31);
+    border-width: 0;
+}
+
+#form_ button:hover {
+    background: rgb(63, 63, 63);
+}
+
+#form_ h2{
+    margin: 25px auto;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 140%;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#footer{
+    width: 100%;
+    height: 50vh;
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(31, 31, 31);
+
+    background-size: cover;
+}
+
+#footer .container{
+    padding-top: 2%;
+}
+
+#footer .flex-sm-fill, .nav-link{
+    color: rgb(183, 183, 183);
+}
+
+#footer .flex-sm-fill, .nav-link:hover{
+    color: #fff;
+}
+#footer h3{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 140%;
+    color: rgb(79, 79, 79);
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 15vh;
+}
+
+#card1 {
+    height: 50vh;
+}
+
+
+
+
+body::-webkit-scrollbar {
+    width: 8px;         
+  }
+  body::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0);        
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(191, 191, 191);    
+    border-radius: 20px;      
+  }
+
+  p {
+    scroll-behavior: smooth;
+  }
+
+#btn_ok {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
+
+#modal {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?;500;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <script type="module" src="assets/js/app.js"></script>
+  <my-header></my-header>
+  
+    <section id="form_" class="d-flex align-items-center justify-content-center">
+        <div class="container">
+            <div class="row justify-content-center"> 
+                <div class="col-md-6 col-lg-8">
+                    <h2>Свяжитесь со мной</h2>
+                    <form class="row g-3">
+                        <div class="col-md-4">
+                          <label for="inputName" class="form-label">Имя</label>
+                          <input type="name" class="form-control" id="inputname">
+                        </div>
+                        <div class="col-md-8">
+                          <label for="inputEmail4" class="form-label">Почта</label>
+                          <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputState" class="form-label">Услуга</label>
+                            <select id="inputState" class="form-select">
+                              <option selected>Выберете...</option>
+                              <option>...</option>
+                            </select>
+                          </div>
+                        <div class="col-md-8">
+                          <label for="inputMesseges" class="form-label">Сообщение</label>
+                          <input type="text" class="form-control" id="inputMesseges">
+                        </div>
+                        <div class="col-12">
+                          <button type="submit" class="btn btn-primary">Отправить</button>
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/215/dubna/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Дубна</a><a href="https://yandex.ru/maps/geo/dubna/53062203/?ll=37.145878%2C56.726650&utm_medium=mapframe&utm_source=maps&z=14" style="color:#eee;font-size:12px;position:absolute;top:14px;">Дубна — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUVrQfEPA" width="100%" height="500" allowfullscreen="true" style="position:relative;"></iframe></div>
+    
+    <my-footer></my-footer>
+
+   <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script> 
+    
+    
+</body>
+</html>
